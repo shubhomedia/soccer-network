@@ -1,1 +1,77 @@
 /* Font From Google Font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+/* Base Font  */
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("banner.png");
+}
+
+/* Youtube Video Section Style Start  */
+.youtube-video-section {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.youtube-video-section hr {
+  border: 2px solid grey;
+  width: 80%;
+}
+/* Youtube Video Section Style End  */
+
+/* News Letter Section Style Start */
+.newsletter-section {
+  text-align: center;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.newsletter-section p {
+  color: black;
+}
+
+.newsletter-section input {
+  font-size: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+#submit-btn {
+  background-color: tomato;
+  margin-left: 10px;
+  color: white;
+}
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+/* News Letter Section Style End */
+
+/* Footer Section Style Start  */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fab {
+  color: white;
+  background-color: #10437a;
+  text-decoration: none;
+  text-align: center;
+  width: 50px;
+  font-size: 32px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.brand-style {
+  color: #a03c78;
+  font-weight: 700;
+}
+/* Footer Section Style End  */
