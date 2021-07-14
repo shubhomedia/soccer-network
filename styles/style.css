@@ -16,7 +16,7 @@ main {
 }
 /* Main Section Style End  */
 
-/* Highlight Section Style Start  */
+/* Main Banner Section Style Start  */
 .main-banner-section {
   display: flex;
   flex-direction: row;
@@ -49,6 +49,13 @@ main {
 .banner-img img {
   width: 567px;
   height: 427px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.banner-img img:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
 }
 
 .watch-now-btn {
@@ -63,7 +70,7 @@ main {
 .fa-arrow-right {
   margin-left: 4px;
 }
-/* Highlisht Section Style End  */
+/* Main Banner SectionStyle End  */
 
 /* Players Section Style Start  */
 .container {
