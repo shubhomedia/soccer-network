@@ -4,14 +4,112 @@
 /* Base Font  */
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("banner.png");
+  background-color: whitesmoke;
+  margin: 0;
 }
 
-/* Highlisht Section Style Start  */
+/* Main Section Style Start  */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Main Section Style End  */
+
+/* Highlight Section Style Start  */
+.main-banner-section {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  width: 80%;
+  background-color: #2d25a0;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding: 5% 10%;
+}
+.col {
+  flex: 50%;
+}
+.banner-title {
+  color: white;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 5%;
+}
+
+.banner-info {
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 8%;
+  width: 75%;
+}
+
+.banner-img img {
+  width: 567px;
+  height: 427px;
+}
+
+.watch-now-btn {
+  background-color: #e02c6d;
+  color: white;
+  margin-top: 30%;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.fa-arrow-right {
+  margin-left: 4px;
+}
+/* Highlisht Section Style End  */
+
+/* Players Section Style Start  */
+.container {
+  width: 1050px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  justify-content: space-between;
+}
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 4%;
+  box-shadow: 0px 0px 10px 2px rgb(189, 185, 185);
+  border-radius: 4px;
+}
+.player img {
+  width: 300px;
+  height: 256px;
+}
+.player h2 {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 1%;
+}
+.player p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Players Section Style End  */
+
+/* Highlight Section Style Start  */
 .highlight-section {
   display: flex;
   flex-direction: row;
   justify-items: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 .col {
   flex: 50%;
@@ -38,7 +136,7 @@ body {
   height: 427px;
 }
 
-/* Highlisht Section Style Eng  */
+/* Highlisht Section Style End  */
 
 /* Youtube Video Section Style Start  */
 .youtube-video-section {
@@ -92,15 +190,19 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+.footer-logo img {
+  width: 400px;
+  margin-bottom: 10%;
+}
 .fab {
   color: white;
-  background-color: #10437a;
+  background-color: #e02c6d;
   text-decoration: none;
   text-align: center;
-  width: 50px;
-  font-size: 32px;
+  width: 30px;
+  font-size: 20px;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .brand-style {
