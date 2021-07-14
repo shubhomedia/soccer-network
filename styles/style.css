@@ -73,7 +73,7 @@ main {
 /* Main Banner SectionStyle End  */
 
 /* Players Section Style Start  */
-.container {
+.players-container {
   width: 1050px;
 }
 .players {
@@ -217,3 +217,26 @@ footer {
   font-weight: 700;
 }
 /* Footer Section Style End  */
+
+/* Media Queries  */
+
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+  .main-banner-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .highlight-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container {
+    width: 100%;
+  }
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player {
+    flex-direction: column;
+  }
+}
