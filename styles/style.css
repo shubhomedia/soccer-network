@@ -7,6 +7,39 @@ body {
   background-image: url("banner.png");
 }
 
+/* Highlisht Section Style Start  */
+.highlight-section {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+.col {
+  flex: 50%;
+}
+.highlight-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 2%;
+}
+.col p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.hightlight-info {
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 8%;
+  width: 75%;
+}
+
+.highlight-img img {
+  width: 567px;
+  height: 427px;
+}
+
+/* Highlisht Section Style Eng  */
+
 /* Youtube Video Section Style Start  */
 .youtube-video-section {
   font-size: 2em;
